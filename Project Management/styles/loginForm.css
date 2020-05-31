@@ -1,0 +1,107 @@
+/* ----------- */
+
+.site-nav{
+    display: flex;
+    width: 40%;
+    background: #354052;
+    color: white;
+}
+
+.site-nav h1{
+    font-size: 2.5em;
+}
+
+.site-nav p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.site-intro{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: #616161;
+}
+
+.login-header{    
+    margin: 3rem auto 1rem auto;
+    font-size: 1.2em;
+}
+
+.app-user-image {
+    display: flex;
+    width: 50%;
+    height: 30%;
+    margin: 0rem auto;
+    justify-content: center;
+    background: url('../images/defaultUser.png') no-repeat center;
+}
+
+.app-user-image img{
+    margin: 0 auto;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form form{
+    margin: 0 auto
+
+}
+
+.form-input input{
+    width: 100%;
+    padding: 0.7rem 0;
+    margin: 1rem auto;
+}
+
+::placeholder{
+    padding-left: 0.5rem;
+}
+
+.login-form-btn{
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn{
+    width: 80%;
+    border-radius: 1.7rem;
+    border: none;
+    background: #47BAC1;
+    color: white;
+    padding: 1.2rem 0;
+}
+
+@media screen and (max-width: 1024px){
+    .site-nav{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+     
+    
+    .login-section{
+        width: 100%;
+        margin: auto;
+    }
+    .app-user-image{
+        width: 60%;
+        height: 200px; 
+    }
+}

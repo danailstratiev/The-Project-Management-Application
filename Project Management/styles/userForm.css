@@ -1,0 +1,117 @@
+/* ----------------- */
+.site-form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.site-form h3{
+    font-size: 1.6rem;
+}
+
+.site-form form input{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.4rem;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    border-color: #00000029;
+}
+
+.site-form form input:active{
+    border-color: #47BAC1;
+}
+
+.site-form form textarea{
+    width: 100%;
+    height: 6rem;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+}
+
+.form-button{
+    display: flex;
+    justify-content: center;
+}
+
+.delete-form-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-form-btn,
+.form-btn{
+    width: 60%;
+    border-radius: 2rem;
+    border: none;
+    background: #47BAC1;
+    opacity: 1;
+    color: white;
+    padding: 1rem ;
+    font-size: 1.4rem;
+    margin: 1.5rem auto;
+}
+
+.delete-form-btn{
+    width: 40%;
+}
+
+
+.no-btn{
+    background: #F26060;
+}
+
+.admin-checker{
+    display: flex;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    color: #00000029;
+    justify-content: start;
+    align-items: center;
+}
+
+#isAdmin{
+    width: 2rem;
+    height: 2rem;
+}
+
+.dates{
+    display: flex;
+    width: 100%;
+}
+
+.dates select{
+    width: 33%;
+    margin: 0 auto;
+    border: solid 2px  #00000029;
+    padding: 1.4rem;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+}
+
+#taskStatus{
+    width: 100%;
+    border: solid 2px  #00000029;
+    padding: 1.4rem;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    color: #A4A4A4;
+}
+
+.deleteMessage{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 480){
+    .site-form{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .site-form form input{
+        padding: 1.3rem;
+    }
+}

@@ -1,0 +1,85 @@
+/* ------------- */
+
+.users-data{
+    width: 80%;
+    padding: 1rem;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+table{
+    border: solid 1px #C6C6C6;
+    border-collapse: collapse;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.teamTd:hover{
+    background-color: #C6C6C6;
+}
+
+.page-table{
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.page-table tr{
+    border: solid 1px #C6C6C6;
+}
+
+.editBtn,
+.editTd{
+    background: url('../images/pen.png') no-repeat center;
+}
+
+.editBtn:hover,
+.editTd:hover{
+    background: url('../images/greenPen.png') no-repeat center;
+    cursor: pointer;
+}
+
+.deleteBtn,
+.deleteTd{
+    background: url('../images/trash.png') no-repeat center;
+}
+
+.deleteBtn:hover,
+.deleteTd:hover{
+    background: url('../images/redTrash.png') no-repeat center;
+    cursor: pointer;
+}
+
+.assignBtn,
+.assignTd{
+    background: url('../images/friend.png') no-repeat center;
+}
+
+.assignBtn:hover,
+.assignTd:hover{
+    background: url('../images/rebelFriend.png') no-repeat center;
+    cursor: pointer;
+}
+
+.projectTeamsBtn{
+    background: url('../images/greyTeam.png') no-repeat center;
+}
+
+.projectTeamsBtn:hover{
+    background: url('../images/clipboardTeam.png') no-repeat center;
+}
+
+.projectTeamsBtn,
+.editBtn,
+.deleteBtn,
+.assignBtn{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: none;
+}

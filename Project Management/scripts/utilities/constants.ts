@@ -1,0 +1,12 @@
+export const base_url: string = 'http://52.164.252.100:8082/api';
+export const users_url: string = '/user';
+export const auth_url = '/authenticate';
+export const team_url: string = '/team';
+export const members_url: string = '/members';
+export const projects_url = '/project';
+export const task_url = '/task';
+export const worklog_url = '/worklog';
+export const Token: string = 'token';
+export const Logged_User: string = 'loggedUser';
+export const main_container = 'container';
+export const work_container = '.project-content';
